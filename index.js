@@ -58,8 +58,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a * b;
   }
 
 
@@ -201,7 +201,7 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(num){
+function grade(code goes here){
     if(num < 100 && num >= 90){
       return 'you got an A';
     }else if(num <90 && num >= 80){
